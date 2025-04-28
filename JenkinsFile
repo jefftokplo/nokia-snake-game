@@ -18,7 +18,7 @@ pipeline {
 
         stage('Run Docker Container') {
             steps {
-                sh 'docker run -d -p 8080:80 snake-game:${BUILD_NUMBER}'
+                sh 'docker run -d -p 8081:80 snake-game:3'
             }
         }
     }
