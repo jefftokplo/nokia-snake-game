@@ -26,7 +26,7 @@ function draw() {
     ctx.fillRect(snake[i].x, snake[i].y, box, box);
   }
 
-  ctx.fillStyle = "red";
+  ctx.fillStyle = "cerulean";
   ctx.fillRect(food.x, food.y, box, box);
 
   let snakeX = snake[0].x;
